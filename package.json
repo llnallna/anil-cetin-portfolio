@@ -1,0 +1,14 @@
+{
+  "name": "anil-cetin-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs",
+    "screenshot": "node screenshot.mjs",
+    "screenshot:mobile": "node screenshot.mjs http://localhost:3000 mobile mobile",
+    "test:browser": "node verify-browser.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.13.0"
+  }
+}
